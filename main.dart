@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app_ui_example/page/home_page.dart';
-import 'package:todo_app_ui_example/provider/todos.dart';
+import 'package:todo_app_ui_ii_example/page/home_page.dart';
+import 'package:todo_app_ui_ii_example/provider/todos.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: title,
           theme: ThemeData(
-            primarySwatch: Colors.cyan,
+            primarySwatch: Colors.pink,
             scaffoldBackgroundColor: Color(0xFFf6f5ee),
           ),
           home: HomePage(),
